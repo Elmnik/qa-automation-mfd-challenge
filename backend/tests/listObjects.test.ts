@@ -1,4 +1,3 @@
-// backend/tests/listObjects.test.ts
 import { test, expect } from '@playwright/test';
 import { ObjectsApi } from '../api/objectsApi';
 
