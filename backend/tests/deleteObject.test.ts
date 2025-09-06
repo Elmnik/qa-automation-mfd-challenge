@@ -4,7 +4,7 @@ import { ObjectsApi } from '../api/objectsApi';
 test('Test_004 - Delete an object', async () => {
   const api = new ObjectsApi();
 
-  // Step 1: Create new object
+  // Create a new method for this specifics scenario in order to use their own object
   const createResponse = await api.createObject({
     name: 'Temp To Delete',
     data: { color: 'red', capacity: '64GB' }
@@ -12,7 +12,7 @@ test('Test_004 - Delete an object', async () => {
   const created = await createResponse.json();
   const objectId = created.id;
 
-  // Step 2: Delete the object
+  // Delete the object
   const deleteResponse = await api.deleteObject(objectId);
   expect(deleteResponse.status).toBe(200);
 
