@@ -59,13 +59,13 @@ npx playwright test --headed (Run with Visible Browser)
 - Frontend UI Issues:
 1. Hover issues in Safari:
 
-2. Menu hover interactions failed in WebKit/Safari
+2. Menu hover interactions failed in WebKit/Safari (Bug reported on file)
 
-Solution: Implemented retry logic and JavaScript click fallbacks
+Solution: Implemented retry logic and TypeScript click fallbacks
 
 - Progress bar timeouts:
 
-1. Timeouts were too short for progress bar completion
+1. Timeouts were too short for progress bar completion (Bug reported on file)
 
 Solution: Increased timeout to 60 seconds and improved polling
 
