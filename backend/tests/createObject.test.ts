@@ -3,11 +3,11 @@ import { ObjectsApi } from '../api/objectsApi';
 
 let objectId: string;
 
-test('Test_002 - Create a new object', async () => {
+test('Test_002 - Create a new object', async () => { 
   const api = new ObjectsApi();
 
   const payload = {
-    name: 'Test Phone',
+    name: 'Test Phone', //Simulating
     data: { color: 'black', capacity: '128GB' }
   };
 
