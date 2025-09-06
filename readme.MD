@@ -47,9 +47,9 @@ npx playwright test (Run Without Browser)
 
 npx playwright test --headed (Run with Visible Browser)
 
-### Issues Found and Solutions
-
 ---
+
+### Issues Found and Solutions
 
 - Backend API Issues:
 ✅ All API test cases worked correctly
