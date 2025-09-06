@@ -1,10 +1,10 @@
 # Automation MFD Challenge
 
-This project contains an automated testing suite using Playwright & playwright for both backend (API) and frontend (UI) testing.
+This project contains an automated testing suite using Playwright & TypeScript for both backend (API) and frontend (UI) testing.
 
 ## 📋 Project Description
 
-The project includes 10 test cases splited into two categories:
+The project includes 10 test cases splited into two categories
 
 ### 🔧 Backend API Tests (5 cases)
 Using **https://restful-api.dev/** as the API testing endpoint:
@@ -48,6 +48,8 @@ npx playwright test (Run Without Browser)
 npx playwright test --headed (Run with Visible Browser)
 
 ### Issues Found and Solutions
+
+---
 
 - Backend API Issues:
 ✅ All API test cases worked correctly
