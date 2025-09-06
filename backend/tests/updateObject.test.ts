@@ -4,7 +4,7 @@ import { ObjectsApi } from '../api/objectsApi';
 test('Test_003 - Update an object', async () => {
   const api = new ObjectsApi();
 
-  // We had to split the previous case ii was using their same object 
+  // We had to split the previous case it was using their same object for the delete one
   const createResponse = await api.createObject({
     name: 'Temp Phone',
     data: { color: 'black', capacity: '128GB' }
