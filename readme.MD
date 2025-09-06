@@ -79,33 +79,35 @@ Solution: Implemented more robust selectors and visibility checks
 
 Solution: Configured testMatch in playwright.config.ts for specific order
 
-###  Configuration
 
+###  Configuration
 The playwright.config.ts file is configured to:
 
-Run tests in 3 browsers: Chromium, Firefox, WebKit
+1- Run tests in 3 browsers: Chromium, Firefox, WebKit
 
-Generate HTML reports
+2- Generate HTML reports
 
-Retry failed tests on CI environments
+3- Retry failed tests on CI environments
 
-Capture traces on first retry
+4- Capture traces on first retry
 
-Run tests in parallel (except on CI)
+5- Run tests in parallel (except on CI)
 
 ###  Technical Stack
 
-Testing Framework: Playwright
+- Testing Framework: Playwright
 
-Languages: TypeScript, JavaScript
+- Languages: TypeScript, JavaScript
 
-API Testing: RESTful API Dev
+- API Testing: RESTful API Dev
 
-UI Testing: DemoQA
+- UI Testing: DemoQA
 
-Browsers: Chromium, Firefox, WebKit
+- Browsers: Chromium, Firefox, WebKit
 
-Reporters: HTML, Line, List
+- Reporters: HTML, Line, List
+
+---
 
 📄 License
 
