@@ -5,7 +5,7 @@ test('Test_005 - List all objects', async () => {
   const api = new ObjectsApi();
 
   const response = await api.listObjects();
-  expect(response.status).toBe(200);
+  expect(response.status).toBe(200); //Expected Response
 
   const data = await response.json();
   expect(Array.isArray(data)).toBe(true);
