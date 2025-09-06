@@ -4,7 +4,7 @@ This project contains an automated testing suite using Playwright & TypeScript f
 
 ## 📋 Project Description
 
-The project includes 10 test cases splited into two categories
+The project includes 10 test cases who first has been defined on the matrix attached to the challenge and has been splited into two categories
 
 ### 🔧 Backend API Tests (5 cases)
 Using **https://restful-api.dev/** as the API testing endpoint:
@@ -27,7 +27,7 @@ Using **https://demoqa.com/** as the UI testing site https://github.com/byKosta/
 ### Prerequisites
 
 - Node.js (version 16 or higher)
-- npm or yarn
+- npm Install
 
 ### Installation Steps
 
@@ -39,7 +39,7 @@ Using **https://demoqa.com/** as the UI testing site https://github.com/byKosta/
 
 2. **Dependencies & Run**
 
-Npm install or yarn install
+Npm install
 
 npx playwright install
 
@@ -89,11 +89,7 @@ The playwright.config.ts file is configured to:
 
 2- Generate HTML reports
 
-3- Retry failed tests on CI environments
-
-4- Capture traces on first retry
-
-5- Run tests in parallel (except on CI)
+3- Run tests in parallel (except on CI)
 
 ###  Technical Stack
 
@@ -107,7 +103,7 @@ The playwright.config.ts file is configured to:
 
 - Browsers: Chromium, Firefox, WebKit
 
-- Reporters: HTML, Line, List
+- Reporters: HTML
 
 ---
 
