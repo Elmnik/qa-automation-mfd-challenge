@@ -26,7 +26,7 @@ export class WidgetsPage {
     this.useTab = page.locator('#demo-tab-use');
     this.tabContent = page.locator('.tab-content');
     
-    // Menu locators for the specific menu page
+    // Menu locators for menu page
     this.mainItem2 = page.locator('a:has-text("Main Item 2")');
     this.subSubList = page.locator('a:has-text("SUB SUB LIST »")');
     this.subSubItem1 = page.locator('a:has-text("Sub Sub Item 1")');
@@ -36,7 +36,7 @@ export class WidgetsPage {
     await this.page.goto('https://demoqa.com/widgets');
   }
 
-  // NEW: Separate method to go directly to menu page
+  // Separated method to go directly to menu page
   async gotoMenuPage() {
     await this.page.goto('https://demoqa.com/menu');
     await expect(this.mainItem2).toBeVisible({ timeout: 5000 });
@@ -70,7 +70,7 @@ export class WidgetsPage {
     await expect(this.tabContent).toContainText('It is a long established fact');
   }
 
-  // UPDATED Test 10 logic
+  // Test 10 Logic must be rewritten because of failes on the demo web.
   async testMenuNavigation() {
     await this.gotoMenuPage();
     await this.clickMainItem2();
